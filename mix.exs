@@ -15,7 +15,7 @@ defmodule MachineLearningExercise.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     # Specify extra applications you'll use from Erlang/Elixir
-    [extra_applications: [:logger, :postgrex, :ecto]]
+    [extra_applications: [:logger, :postgrex, :ecto, :extwitter]]
   end
 
   # Dependencies can be Hex packages:
@@ -29,6 +29,7 @@ defmodule MachineLearningExercise.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:postgrex, ">= 0.0.0"},
-     {:ecto, "~> 2.1"}]
+     {:ecto, "~> 2.1"},
+     {:extwitter, "~> 0.8.2"}]
   end
 end

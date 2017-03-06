@@ -2,8 +2,8 @@
 
 * Clone the repository with `git clone https://github.com/kabisa/machine_learning_exercise-elixir.git`
 
-* Configure your Twitter tokens in `config/config.exs`. If you do not have
-  credentials yet, create your application on [https://apps.twitter.com/](https://apps.twitter.com)
+* Configure your database and Twitter tokens in `config/config.exs`. If
+  you do not have credentials yet, create your application on [https://apps.twitter.com/](https://apps.twitter.com)
   and immediately generate an access token as well.
 
 ## Obtaining a Training Set

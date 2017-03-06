@@ -31,6 +31,12 @@ config :machine_learning_exercise, MachineLearningExercise.Repo,
   hostname: "localhost",
   port: "5432"
 
+config :extwitter, :oauth,
+  consumer_key: "YOUR_CONSUMER_KEY",
+  consumer_secret: "YOUR_CONSUMER_SECRET",
+  access_token: "YOUR_ACCESS_TOKEN",
+  access_token_secret: "YOUR_ACCESS_TOKEN_SECRET"
+
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment
 # by uncommenting the line below and defining dev.exs, test.exs and such.
