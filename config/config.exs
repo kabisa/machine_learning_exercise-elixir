@@ -8,19 +8,6 @@ use Mix.Config
 # if you want to provide default values for your application for
 # 3rd-party users, it should be done in your "mix.exs" file.
 
-# You can configure for your application as:
-#
-#     config :machine_learning_exercise, key: :value
-#
-# And access this configuration in your application as:
-#
-#     Application.get_env(:machine_learning_exercise, :key)
-#
-# Or configure a 3rd-party app:
-#
-#     config :logger, level: :info
-#
-
 config :machine_learning_exercise, ecto_repos: [MachineLearningExercise.Repo]
 
 config :machine_learning_exercise, MachineLearningExercise.Repo,
@@ -29,7 +16,8 @@ config :machine_learning_exercise, MachineLearningExercise.Repo,
   username: "postgres",
   password: "postgres",
   hostname: "localhost",
-  port: "5432"
+  port: "5432",
+  log_level: :debug
 
 config :extwitter, :oauth,
   consumer_key: "YOUR_CONSUMER_KEY",
