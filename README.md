@@ -18,6 +18,11 @@
   retweets. Swap out the emoticon to fetch tweets with a negative sentiment as
   well.
 
+Twitter has a rate limit in place that expires every 15 minutes. In order
+to prevent yourself from getting locked out, try to limit the amount of calls
+while testing. If you do find yourself stranded, you can also download a database [here](https://github.com/kabisa/machine_learning_exercise-elixir/raw/master/machine_learning_exercise_dev.pg_dump)
+that has been seeded with training tweets.
+
 ## Training our Classifier
 
 * Create a model to capture your unigrams in. You will need to store the actual
